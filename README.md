@@ -1,0 +1,27 @@
+# FastAPI framework usage
+
+テーマ：非同期処理を前提としたAPIを、PythonのWebフレームワーク [__FastAPI__](https://github.com/tiangolo/fastapi) で実装します。
+
+
+## Usage
+
+- install
+
+    ```
+    pip install fastapi uvicorn
+    ```
+
+- 実装（ソースコード）
+
+    `main.py`
+
+- サーバー起動
+
+    ```
+    uvicorn main:app --reload
+    ```
+
+    [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+
+
