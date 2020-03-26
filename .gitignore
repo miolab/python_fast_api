@@ -1,3 +1,4 @@
 .vscode
 Pipfile.lock
-memo/
+_memo/
+*DS*
