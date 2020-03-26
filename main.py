@@ -4,4 +4,11 @@ app = FastAPI()
 
 @app.get('/')
 async def read_root():
-    return {"people": "IM"}
+    return {"greeting": "Hello, IM."}
+
+@app.get('/lang')
+async def read_root():
+    return {
+        "people": "IM",
+        "lang": ["Python", "Elixir", "PHP"]
+        }
