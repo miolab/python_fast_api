@@ -22,11 +22,11 @@
 $ pip install fastapi uvicorn
 ```
 
-### 実装（ソースコード）
+#### 実装（ソースコード）
 
-`main.py`
+- [`main.py`](https://github.com/miolab/python_fast_api/blob/master/main.py)
 
-### サーバー起動
+### サーバー起動（localhost）
 
 ```
 $ uvicorn main:app --reload
@@ -44,7 +44,7 @@ $ uvicorn main:app --reload
 
 #### API用ディレクトリを指定したバージョン（ディレクトリ`lang/`作成）
 
-- [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- [http://127.0.0.1:8000/lang](http://127.0.0.1:8000/lang)
 
   <img width="640" alt="fast2" src="https://user-images.githubusercontent.com/33124627/77629645-35afb180-6f8d-11ea-8db4-be4bad531a29.png">
 
